@@ -74,7 +74,7 @@ public class Main {
         //kolumny
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                output.append("P").append(i).append(j).append(" ");
+                output.append("P").append(j).append(i).append(" ");
             }
             output.append(n).append(" ").append("rozne").append("\n");
         }
